@@ -53,6 +53,7 @@
 .float-btn:hover{transform:scale(1.1);}
 .float-btn.fb-msg{background:#0084FF;color:white;}
 .float-btn.fb-call{background:var(--teal-deep);color:var(--ivory);}
+.float-btn svg{stroke:var(--gold-light);}
 .float-label{position:absolute;right:62px;top:50%;transform:translateY(-50%);background:var(--ink);color:var(--ivory);font-size:.72rem;padding:7px 13px;border-radius:4px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .3s ease;}
 .float-btn:hover .float-label{opacity:1;}
 .totop{position:fixed;left:22px;bottom:22px;z-index:600;width:44px;height:44px;border-radius:50%;background:rgba(14,59,54,.85);color:var(--ivory);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity .4s ease,transform .4s ease;backdrop-filter:blur(6px);}
